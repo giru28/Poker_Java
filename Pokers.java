@@ -164,7 +164,7 @@ class Player {
         if (rankCounts.containsValue(3) && rankCounts.containsValue(2)) {
             return HandRank.FULL_HOUSE;
         }
-
+        
         // フラッシュの判定
         if (suitCounts.containsValue(5)) {
             return HandRank.FLUSH;
